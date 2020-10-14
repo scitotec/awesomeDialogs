@@ -44,7 +44,7 @@ class VerticalStackDialog extends StatelessWidget {
                     top: 65.0, left: 40.0, right: 40.0, bottom: 10.0),
             child: Material(
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0)),
+                  borderRadius: BorderRadius.circular(0.0)),
               elevation: 0.5,
               color: Theme.of(context).cardColor,
               child: Padding(
